@@ -1,21 +1,150 @@
 <!DOCTYPE html>
-<html lang="pt-BT">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extrator de Palavras-Chave</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Flashcard</title>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Extrator de palavras-chave</h1>
-        <textarea id="entrada-de-texto" placeholder="Digite ou cole seu texto aqui..."></textarea>
-        <button id="botao-palavrachave">Extrair</button>
-        <div id="resultado-palavrachave"></div>
+  <main>
+    <section id="container">
+      <article class="cartao">
+        <div class="cartao__conteudo">
+          <h3>Sociologia</h3>
+          <div class="cartao__conteudo__pergunta">
+           <p>O que é fato social?</p>
+          </div>
+          <div class="cartao__conteudo__resposta">
+            <P>Forma de agir, pensar ou sentir que é comum a um grupo ou sociedade</P>
+          </div>
+        </div>
+      </article>
+      <article class="cartao">
+        <div class="cartao__conteudo">
+          <h3>Matemática</h3>
+          <div class="cartao__conteudo__pergunta">
+            <p>Quanto é 7!+5!</p>
+          </div>
+          <div class="cartao__conteudo__resposta">
+            <p>5160</p>
+          </div>
+        </div>
+      </article>
+      <article class="cartao">
+        <div class="cartao__conteudo">
+          <h3>Geografia</h3>
+          <div class="cartao__conteudo__pergunta">
+            <p>Energia solar é uma fonte de energia renovável ou não renovável?</p>
+          </div>
+          <div class="cartao__conteudo__resposta">
+            <p>Renovável</p>
+          </div>
+        </div>
+      </article>
+    <article class="cartao">
+      <div class="cartao__conteudo">
+        <h3>Biologia</h3>
+        <div class="cartao__conteudo__pergunta">
+          <p>Quais são os grandes grupos de animais?</p>
+        </div>
+        <div class="cartao__conteudo__resposta">
+          <p>Vertebrados e invertebrados</p>
+        </div>
+      </div>
+       </article>
+      <article class="cartao">
+        <div class="cartao__conteudo">
+        <h3>História</h3>
+        <div class="cartao__conteudo__pergunta">
+          <p>O que foi o Tratado de Versalhes?</p>
+        </div>
+        <div class="cartao__conteudo__resposta">
+          <p>Assinado em 1919, estabeleceu as condições de paz entre a Alemanha e os países da Tríplice Entente.</p>
+        </div>
+      </div>
+    </article>    
+      <article class="cartao">
+        <div class="cartao__conteudo">
+        <h3>Português</h3>
+        <div class="cartao__conteudo__pergunta">
+          <p>Qual a estrutura de um artigo de opinião?</p>
+        </div>
+        <div class="cartao__conteudo__resposta">
+          <p>Introdução, desenvolvimento e conclusão</p>
+        </div>
+      </div>
+    </article>  
+    <article class="cartao">
+      <div class="cartao__conteudo">
+      <h3>Projeto de Vida</h3>
+      <div class="cartao__conteudo__pergunta">
+        <p>O que significa Ubuntu?</p>
+      </div>
+      <div class="cartao__conteudo__resposta">
+        <p>É uma filosofia Africana que se traduz geralmente como "Eu sou porque nós somos"</p>
+      </div>
     </div>
-    <script src="script.js"></script>
+  </article>      
+  <article class="cartao">
+    <div class="cartao__conteudo">
+    <h3>Educação financeira</h3>
+    <div class="cartao__conteudo__pergunta">
+      <p>Quando surgiu o dólar americano?</p>
+    </div>
+    <div class="cartao__conteudo__resposta">
+      <p>Em 4 de abril de 1792</p>
+    </div>
+  </div>
+</article>      
+<article class="cartao">
+  <div class="cartao__conteudo">
+  <h3>Química</h3>
+  <div class="cartao__conteudo__pergunta">
+    <p>Qual a principal função das pilhas? </p>
+  </div>
+  <div class="cartao__conteudo__resposta">  
+    <p>São geradores e armazenam energia, na forma de diferença de potencial</p>
+  </div>
+  </article> 
+<article class="cartao">
+  <div class="cartao__conteudo">
+  <h3>Fisíca 1</h3>
+  <div class="cartao__conteudo__pergunta">
+    <p>Para que serve um jumper macho macho?</p>
+  </div>
+  <div class="cartao__conteudo__resposta">
+    <p>É utilizado para conectar dois pontos de um circuito eletrônico</p></p>
+  </div>
+</div>
+</article>        
+<article class="cartao">
+  <div class="cartao__conteudo">
+  <h3>Matemática 2</h3>
+  <div class="cartao__conteudo__pergunta">
+    <p>O que é JavaScript?</p>
+  </div>
+  <div class="cartao__conteudo__resposta">
+  <p> É uma linguagem de progamação</p>
+  </div>
+</div>
+</article>   
+<article class="cartao">
+  <div class="cartao__conteudo">
+    <h3>Biotecnologia</h3>
+    <div class="cartao__conteudo__pergunta">
+      <p>A biotecnologia vermelha é responsável por qual área?</p>
+    </div>
+    <div class="cartao__conteudo__resposta">
+      <p> Abrange desde a produção de vacinas e medicamentos até o desenvolvimento de terapias regenerativas e técnicas de diagnóstico molecular. </p>
+    </div>
+  </div>
+</article>  
+    </section>
+  </main>
+  <footer>
+    <p>Projeto desenvolvido por aluna do 2º ano de Exatas</p>
+  </footer>
 </body>
 
 </html>
